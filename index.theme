@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Gnamon
+Comment=A modern and well polished theme for GNOME desktop 
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Gnamon
+MetacityTheme=Gnamon
+IconTheme=Gnamon
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:

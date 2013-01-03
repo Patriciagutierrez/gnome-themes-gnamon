@@ -1,0 +1,13 @@
+Source: zukini-theme
+Section: gnome
+Priority: extra
+Maintainer: Alin Andrei <webupd8@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.4
+Homepage: http://lassekongo83.deviantart.com/art/Zukini-272660042
+
+Package: zukini-theme
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine (>= 0.91.0~git201103180132~daily1~lucid1), gtk2-engines-pixbuf, gtk3-engines-unico (>= 1.0.1)
+Description: Zukini theme pack
+  This package provides the Zukini GTK2/GTK3/GNOME Shell themes
