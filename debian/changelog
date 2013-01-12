@@ -1,6 +1,6 @@
 gnome-themes-gnamon (1.0-1) unstable; urgency=low
 
-  * GTK3: Gnome classic indicator applet fix.
-  * GTK3: Added support for slickpanel.
- 
- -- Alin Andrei <webupd8@gmail.com>  Fri, 17 Aug 2012 14:44:29 +0300
+  * Versión inicial basada en Zukini (GTK2/GTK3/Gnome Shell),
+    Boomerang Deux (Metacity) y Faenza+Faince (Íconos).
+
+-- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 11 Jan 2013 21:05:52 -0430
