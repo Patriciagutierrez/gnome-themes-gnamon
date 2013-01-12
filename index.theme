@@ -8,5 +8,4 @@ Encoding=UTF-8
 GtkTheme=Gnamon
 MetacityTheme=Gnamon
 IconTheme=Gnamon
-CursorTheme=DMZ-White
-ButtonLayout=close,minimize,maximize:
+CursorTheme=Gnamon

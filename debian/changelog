@@ -1,5 +1,5 @@
-gnome-themes-gnamon (1.0-1) unstable; urgency=medium
- 
+gnome-themes-gnamon (1.0-1) unstable; urgency=low
+
   * GTK3: Gnome classic indicator applet fix.
   * GTK3: Added support for slickpanel.
  

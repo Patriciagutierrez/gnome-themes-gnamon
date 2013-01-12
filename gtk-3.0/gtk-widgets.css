@@ -1119,7 +1119,7 @@ DbusmenuGtkMenu .menu,
 		from (shade (@bg_color, 1.1)),
 		to (shade (@bg_color, 1.02)));
 	color: @fg_color;
-	border-width: 1px;
+	border-width: 0px;
 	border-style: solid;
 	border-color: shade (@bg_color, 0.8);
 
