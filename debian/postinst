@@ -28,8 +28,15 @@ case ${1} in
 	configure|'')
 
 	if [ -n "$( which update-icon-caches )" ] && [ -x "$( which update-icon-caches )" ]; then
-		sync
 		update-icon-caches /usr/share/icons/Gnamon || true
+	fi
+
+	if [ -n "$( which update-gconf-defaults )" ] && [ -x "$( which update-gconf-defaults )" ]; then
+		update-gconf-defaults || true
+	fi
+
+	if [ -n "$( which glib-compile-schemas )" ] && [ -x "$( which glib-compile-schemas )" ]; then
+		glib-compile-schemas || true
 	fi
 
 	;;

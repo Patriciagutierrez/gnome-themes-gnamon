@@ -1,0 +1,34 @@
+/* Frieze, version 3.4-0.2
+ *   Copyright 2012, Jacob van Mourik
+ * 
+ * Portions adapted from Fedora 17 default theme
+ *   Copyright 2009, Red Hat, Inc.
+ * 
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms and conditions of the GNU Lesser General Public License,
+ * version 2.1, as published by the Free Software Foundation.
+ * 
+ * This program is distributed in the hope it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ * more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+ 
+@import url('frieze/general.css');
+@import url('frieze/popup-menu.css');
+@import url('frieze/panel.css');
+@import url('frieze/activities.css');
+@import url('frieze/looking-glass.css');
+@import url('frieze/calendar.css');
+@import url('frieze/message-tray.css');
+@import url('frieze/switchers.css');
+@import url('frieze/dialogs.css');
+@import url('frieze/universal-access.css');
+
+/* DO NOT MODIFY THE CONTENT BELOW */
+
+@import url('frieze/extensions/10-transition-effects.css');

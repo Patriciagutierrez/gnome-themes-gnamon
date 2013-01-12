@@ -1,0 +1,58 @@
+/* Title: Transition effects
+ * Description: Adds transition effects to several parts of the theme
+ */
+
+/* Scrollbars */
+
+StScrollBar StButton#vhandle,
+StScrollBar StButton#hhandle {
+    transition-duration: 150;
+}
+
+/* Overview Search Entry */
+
+#searchEntry {
+    transition-duration: 150;
+}
+
+#searchEntry:hover {
+    transition-duration: 180;
+}
+
+#searchEntry:focus {
+    transition-duration: 0;
+}
+
+/* Overview Apps and Contacts */
+
+.contact,
+.app-well-app > .overview-icon,
+.remove-favorite > .overview-icon,
+.search-result-content > .overview-icon {
+	transition-duration: 150;
+}
+
+/* Buttons */
+
+.dash-search-button, 
+.notification-button, 
+.notification-icon-button,
+.hotplug-notification-item, 
+.hotplug-resident-eject-button,
+.modal-dialog-button,  
+.keyboard-key,
+.panel-button {
+	transition-duration: 150;
+}
+
+/* Menu Items */
+
+.popup-submenu-menu-item {
+    transition-duration: 150;
+}
+
+/* Login User List Item */
+
+.login-dialog-user-list-item {
+    transition-duration: 150;
+}

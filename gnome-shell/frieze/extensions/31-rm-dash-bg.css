@@ -1,0 +1,22 @@
+/* Title: Remove dash/dock panel background
+ * Description: Removes the background of the dash/dock panel in the activities overview
+ */
+
+.workspace-controls {
+    padding-top: 9px;
+}
+
+#dash {
+    background: none;
+    border: none;
+    padding: 5px 8px;
+}
+
+.dash-item-container > .app-well-app {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dash-label {
+    -x-offset: 3px;
+}

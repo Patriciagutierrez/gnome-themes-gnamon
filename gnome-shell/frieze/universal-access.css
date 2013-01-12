@@ -1,0 +1,45 @@
+/* Magnifier */
+
+.magnifier-zoom-region {
+    border: 2px solid rgba(128, 0, 0, 255);
+}
+
+.magnifier-zoom-region.full-screen {
+    border-width: 0px;
+}
+
+/* On-screen Keyboard */
+
+#keyboard {
+    background-color: rgba(0,0,0,0.85);
+}
+
+.keyboard-layout {
+    spacing: 10px;
+    padding: 10px;
+}
+
+.keyboard-row {
+    spacing: 10px;
+}
+
+.keyboard-key {
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 4px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.keyboard-key:grayed {
+    color: #888;
+}
+
+.keyboard-subkeys {
+    padding: 10px;
+    -arrow-border-radius: 5px;
+    -arrow-background-color: rgba(0,0,0,0.85);
+    -arrow-base: 15px;
+    -arrow-rise: 8px;
+    -boxpointer-gap: 2px;
+}

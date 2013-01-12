@@ -1,0 +1,96 @@
+/* Looking Glass */
+
+#LookingGlassDialog {
+    background-color: rgba(0,0,0,0.85);
+    border-radius: 5px;
+    spacing: 20px;
+    padding: 20px;
+}
+
+#LookingGlassDialog .notebook-tab {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: .45em .8em;
+    font-weight: bold;
+    color: #ccc;
+    font-family: sans-serif;
+}
+
+#LookingGlassDialog .notebook-tab:hover,
+#LookingGlassDialog .notebook-tab:selected {
+    color: #fff;
+}
+
+#LookingGlassDialog .notebook-tab:selected {
+    border-color: rgba(0,0,0,0.2);
+    background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.3);
+	background-gradient-end: rgba(255,255,255,0.1);
+	box-shadow: inset 0px 0px 2px rgba(255,255,255,0.3);
+}
+
+#LookingGlassDialog .lg-inspector-title {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.lg-completions-text {
+    font-size: .9em;
+    font-style: italic;
+}
+
+.lg-obj-inspector-title {
+    spacing: 4px;
+    font-weight: bold;
+}
+
+.lg-obj-inspector-button {
+    color: #ccc;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.lg-obj-inspector-button:hover {
+    color: #fff;
+}
+
+#LookingGlassDialog StBoxLayout#EvalBox {
+    spacing: 4px;
+}
+
+#LookingGlassDialog StBoxLayout#ResultsArea {
+    spacing: 4px;
+}
+
+.lg-extension-list {
+    spacing: 6px;
+}
+
+.lg-extension {
+    padding-bottom: 1em;
+}
+
+.lg-extension-name {
+    font-weight: bold;
+}
+
+.lg-extension-meta {
+    spacing: 6px;
+}
+
+#LookingGlassPropertyInspector {
+    background-color: rgba(0,0,0,0.85);
+    box-shadow: inset 0px 0px 0px rgba(255,255,255,0.3);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 4px;
+}
+
+#LookingGlassPropertyInspector:ltr {
+    padding-right: 4px;
+}
+
+#LookingGlassPropertyInspector:rtl {
+    padding-left: 4px;
+}

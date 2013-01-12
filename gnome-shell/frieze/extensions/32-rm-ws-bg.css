@@ -1,0 +1,9 @@
+/* Title: Remove workspaces panel background
+ * Description: Removes the background of the workspaces panel in the activities overview
+ */
+
+.workspace-thumbnails-background {
+    background: none;
+    border: none;
+    padding: 1px 8px;
+}

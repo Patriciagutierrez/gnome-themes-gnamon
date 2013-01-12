@@ -3,7 +3,7 @@ Section: gnome
 Priority: extra
 Maintainer: Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.4
+Standards-Version: 3.9.4
 
 Package: gnome-themes-gnamon
 Architecture: all

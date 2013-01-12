@@ -1,0 +1,40 @@
+/* Title: Alternative menus
+ * Description: Replaces the default look of the menus with an alternative look
+ */
+
+.popup-menu-boxpointer,
+.summary-boxpointer {
+    -arrow-background-color: rgba(0,0,0,0);
+    -arrow-border-width: 0px;
+    -arrow-border-radius: 0px;
+    -arrow-base: 0px;
+    -arrow-rise: 0px;
+}
+
+#LookingGlassDialog,
+.modal-dialog,
+.switcher-list,
+.workspace-switcher-container,
+.popup-menu-boxpointer,
+.summary-boxpointer {
+    background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,0,0,0.8);
+    background-gradient-end: rgba(0,0,0,0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.2);
+}
+
+#dash {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dash-item-container > .app-well-app {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.dash-label {
+    -x-offset: 3px;
+}

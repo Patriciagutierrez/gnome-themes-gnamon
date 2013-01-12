@@ -1,0 +1,107 @@
+/* Title: Roboto font fixes for Ubuntu's font rendering
+ * Description: Fixes incorrectnesses for roboto caused by Ubuntu's font rendering (only enable this if you're using Ubuntu or another distro which uses Ubuntu's font rendering)
+ */
+
+/* Entries */
+
+#searchEntry,
+#notification StEntry,
+.prompt-dialog-password-entry,
+.login-dialog-prompt-entry {
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+/* Tabs */
+
+.view-tab-title,
+.app-filter  {
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+/* Buttons */
+
+.dash-search-button,
+.notification-button,
+.modal-dialog-button {
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+/* Popup Menu Items */
+
+.popup-menu-item {
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+.popup-separator-menu-item {
+    height: .2em;
+}
+
+.status-chooser {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/* Calendar */
+
+.datemenu-date-label {
+    padding-top: .4em;
+}
+
+.calendar-month-label {
+    padding-top: 1.45em;
+    padding-bottom: 1.5em;
+}
+
+.calendar-day-heading {
+    height: 1.7em;
+}
+
+.calendar-week-number {
+    padding-top: .5em;
+    height: 1.8em;
+}
+
+.events-header-vbox {
+    padding-top: .45em;
+    spacing: 1.1em;
+}
+
+.events-header-hbox {
+    padding-top: .45em;
+}
+
+/* Search Results */
+
+.search-statustext {
+    padding-top: .3em;
+}
+
+.search-section-header {
+    padding-top: .45em;
+}
+
+/* Labels */
+
+#summary-mode {
+    padding-top: 1px;
+}
+
+.dash-label {
+    padding-top: 3px;
+}
+
+.window-caption {
+    -shell-caption-spacing: 5px;
+}
+
+.switcher-list .thumbnail-box {
+    spacing: 5px;
+}
+
+.prompt-dialog-password-label {
+    padding-top: .45em;
+}

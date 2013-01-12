@@ -1,0 +1,120 @@
+/* Panel */
+
+#panel {
+    background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,0,0,0.1);
+	background-gradient-end: rgba(0,0,0,0.3);
+	border: 1px solid rgba(255,255,255,0.1);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+    font-weight: bold;
+    height: 1.86em;
+}
+
+#panelLeft, #panelCenter, #panelRight {
+    spacing: 0px;
+}
+
+#appMenu {
+    spacing: 4px;
+    text-shadow: rgba(0,0,0,0.6) 0px 0px 2px;
+}
+
+.label-shadow {
+    color: transparent;
+}
+
+.panel-button #appMenuIcon,
+.panel-button:active #appMenuIcon,
+.panel-button:checked #appMenuIcon,
+.panel-button:focus #appMenuIcon {
+    app-icon-bottom-clip: 1px;
+}
+
+.app-menu-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.panel-button {
+    -natural-hpadding: 12px;
+    -minimum-hpadding: 6px;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.6) 0px 0px 2px;
+}
+
+.panel-button:hover {
+    background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.25);
+	background-gradient-end: rgba(255,255,255,0.1);
+	border-image: url("img/panel-button-border.svg") 2 2 2 2 stretch;
+}
+
+.panel-button:active,
+.panel-button:focus,
+.panel-button:overview {
+    background-gradient-direction: vertical;
+	background-gradient-start: rgba(255,255,255,0.3);
+    background-gradient-end: rgba(255,255,255,0.12);
+    border-image: url("img/panel-button-border.svg") 2 2 2 2 stretch;
+}
+
+.panel-button .system-status-icon,
+.panel-button .popup-menu-icon {
+    icon-shadow: rgba(0,0,0,0.6) 0px 0px 2px;
+    icon-size: 1.09em;
+}
+
+.panel-menu {
+    -boxpointer-gap: 4px;
+}
+
+/* User Menu */
+
+#panelUserMenu {
+    spacing: 4px;
+}
+
+.status-chooser {
+    spacing: .5em;
+    padding: .5em 1.5em;
+}
+
+.status-chooser .popup-menu-item {
+    padding-left: .45em;
+    padding-right: .45em;
+}
+
+.status-chooser-user-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 3px;
+}
+
+.status-chooser-user-name {
+    min-width: 9em;
+    font-weight: bold;
+}
+
+.status-chooser-combo {
+    border-radius: 2px;
+}
+
+.status-chooser-combo .popup-combo-menu {
+    background-color: rgba(0,0,0,0.85);
+    box-shadow: inset 0px 0px 0px rgba(255,255,255,0.3);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 3px;
+    padding: 1px;
+}
+
+.status-chooser-combo .popup-menu-item {
+    padding-left: .45em;
+    padding-right: .45em;
+}
+
+.status-chooser-status-item,
+.status-chooser-combo .popup-combobox-item {
+    spacing: 4px;
+}

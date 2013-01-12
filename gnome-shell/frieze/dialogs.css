@@ -1,0 +1,324 @@
+/* Modal Dialogs */
+
+.modal-dialog {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.85);
+    padding: 20px;
+}
+
+.modal-dialog-button-box {
+    spacing: 20px;
+    padding-top: 35px;
+}
+
+.modal-dialog-button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: .45em 1em;
+    border-radius: 3px;
+}
+
+.modal-dialog-button:disabled {
+    color: #888;
+}
+
+/* Run Dialog */
+
+.run-dialog-label {
+    padding: 0px 1px 5px 1px;
+}
+
+.run-dialog-error-box {
+    padding-top: 15px;
+    spacing: 5px;
+}
+
+.run-dialog-entry {
+    font-weight: bold;
+    width: 23em;
+}
+
+.lightbox {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.flashspot {
+    background-color: white;
+}
+
+/* End Session Dialog */
+
+.end-session-dialog {
+    spacing: 20px;
+}
+
+.end-session-dialog-subject {
+    padding-top: 7px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.end-session-dialog-description {
+    width: 28em;
+}
+
+.end-session-dialog-subject:ltr,
+.end-session-dialog-description:ltr {
+    padding-left: 17px;
+}
+
+.end-session-dialog-subject:rtl,
+.end-session-dialog-description:rtl {
+    padding-right: 17px;
+}
+
+.end-session-dialog-logout-icon {
+    border-radius: 2px;
+    width: 32px;
+    height: 32px;
+}
+
+.end-session-dialog-shutdown-icon {
+    color: #eee;
+    width: 32px;
+    height: 32px;
+}
+
+.end-session-dialog-app-list {
+    max-height: 200px;
+    padding-top: 40px;
+}
+
+.end-session-dialog-app-list:ltr {
+    padding-left: 49px;
+    padding-right: 32px;
+}
+
+.end-session-dialog-app-list:rtl {
+    padding-right: 49px;
+    padding-left: 32px;
+}
+
+.end-session-dialog-app-list-item {
+    color: #ccc;
+}
+
+.end-session-dialog-app-list-item:hover {
+    color: #fff;
+}
+
+.end-session-dialog-app-list-item:ltr {
+    padding-right: 1em;
+}
+
+.end-session-dialog-app-list-item:rtl {
+    padding-left: 1em;
+}
+
+.end-session-dialog-app-list-item-icon:ltr {
+    padding-right: 10px;
+}
+
+.end-session-dialog-app-list-item-icon:rtl {
+    padding-left: 10px;
+}
+
+.end-session-dialog-app-list-item-name {
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+.end-session-dialog-app-list-item-description {
+    color: #999;
+}
+
+/* ShellMountOperation Dialogs */
+
+.shell-mount-operation-icon {
+    icon-size: 48px;
+}
+
+.mount-password-reask {
+    color: red;
+}
+
+.show-processes-dialog,
+.mount-question-dialog {
+    spacing: 20px;
+}
+
+.show-processes-dialog-subject,
+.mount-question-dialog-subject {
+    padding-top: 7px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.show-processes-dialog-subject:ltr,
+.mount-question-dialog-subject:ltr {
+    padding-left: 17px;
+}
+
+.show-processes-dialog-subject:rtl,
+.mount-question-dialog-subject:rtl {
+    padding-right: 17px;
+}
+
+.show-processes-dialog-description,
+.mount-question-dialog-description {
+    width: 28em;
+}
+
+.show-processes-dialog-description:ltr,
+.mount-question-dialog-description:ltr {
+    padding-left: 17px;
+}
+
+.show-processes-dialog-description:rtl,
+.mount-question-dialog-description:rtl {
+    padding-right: 17px;
+}
+
+.show-processes-dialog-app-list {
+    max-height: 200px;
+    padding-top: 40px;
+}
+
+.show-processes-dialog-app-list:ltr {
+    padding-left: 49px;
+    padding-right: 32px;
+}
+
+.show-processes-dialog-app-list:rtl {
+    padding-right: 49px;
+    padding-left: 32px;
+}
+
+.show-processes-dialog-app-list-item {
+    color: #ccc;
+}
+
+.show-processes-dialog-app-list-item:hover {
+    color: #fff;
+}
+
+.show-processes-dialog-app-list-item:ltr {
+    padding-right: 1em;
+}
+
+.show-processes-dialog-app-list-item:rtl {
+    padding-left: 1em;
+}
+
+.show-processes-dialog-app-list-item-icon:ltr {
+    padding-right: 17px;
+}
+
+.show-processes-dialog-app-list-item-icon:rtl {
+    padding-left: 17px;
+}
+
+.show-processes-dialog-app-list-item-name {
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+/* Password or Authentication Dialog */
+
+.prompt-dialog {
+    width: 500px;
+}
+
+.prompt-dialog .modal-dialog-button-box {
+    padding-top: 1px;
+}
+
+.prompt-dialog-main-layout {
+    padding-top: 5px;
+}
+
+.prompt-dialog-main-layout,
+.prompt-dialog-message-layout {
+    spacing: 20px;
+}
+
+.prompt-dialog-headline {
+    font-weight: bold;
+}
+
+.prompt-dialog-password-label {
+    padding-top: 0.5em;
+}
+
+.prompt-dialog-password-label:ltr {
+    padding-right: 0.5em;
+}
+
+.prompt-dialog-password-label:rtl {
+    padding-left: 0.5em;
+}
+
+.prompt-dialog-password-entry {
+    background-gradient-direction: vertical;
+	background-gradient-start: rgba(0,0,0,0.2);
+	background-gradient-end: rgba(0,0,0,0.1);
+	box-shadow: inset 0px 0px 2px rgba(0,0,0,0.6);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 4px;
+    padding: .45em;
+    color: #ccc;
+}
+
+.prompt-dialog-password-entry:hover,
+.prompt-dialog-password-entry:focus {
+    background-gradient-start: rgba(0,0,0,0.25);
+	background-gradient-end: rgba(0,0,0,0.15);
+    color: #fff;
+}
+
+.prompt-dialog-password-entry .capslock-warning {
+    icon-size: 1.09em;
+    warning-color: #999;
+    padding: 0 4px;
+}
+
+.prompt-dialog-error-label {
+    color: red;
+}
+
+.prompt-dialog-error-label,
+.prompt-dialog-info-label {
+    padding-bottom: 20px;
+}
+
+.prompt-dialog-null-label {
+    color: rgba(0,0,0,0);
+}
+
+/* Polkit Dialog */
+
+.polkit-dialog-user-layout {
+    spacing: 10px;
+}
+
+.polkit-dialog-user-layout:ltr {
+    padding-left: 10px;
+}
+
+.polkit-dialog-user-layout:rtl {
+    padding-right: 10px;
+}
+
+.polkit-dialog-user-root-label {
+    color: #ff0000;
+}
+
+/* Network Agent Dialog */
+
+.network-dialog-secret-table {
+    spacing-rows: 15px;
+}
+
+.keyring-dialog-control-table {
+    spacing-rows: 15px;
+}
