@@ -1,6 +1,0 @@
-[org.gnome.desktop.interface]
-gtk-theme='Gnamon'
-icon-theme='Gnamon'
-
-[org.gnome.desktop.wm.preferences]
-theme='Gnamon'

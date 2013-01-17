@@ -7,6 +7,6 @@ Standards-Version: 3.9.4
 
 Package: gnome-themes-gnamon
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, gtk3-engines-unico (>= 1.0.1)
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, gtk3-engines-unico, fonts-jara
 Description: Conjunto de temas Gnamon
   Conjunto de temas Gnamon
