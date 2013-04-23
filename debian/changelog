@@ -1,5 +1,6 @@
-gnome-themes-gnamon (1.0-1) unstable; urgency=low
+gnome-themes-gnamon (1.0) stable; urgency=low
 
+  * [ad8f7c5] Corrigiendo estándares.
   * Versión inicial basada en Zukini (GTK2/GTK3) y Frieze (Gnome Shell/GDM)
 
  -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 11 Jan 2013 21:05:52 -0430
