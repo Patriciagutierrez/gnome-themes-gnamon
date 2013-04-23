@@ -2,8 +2,11 @@ Source: gnome-themes-gnamon
 Section: gnome
 Priority: extra
 Maintainer: Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>
-Build-Depends: debhelper (>= 7)
-Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage: http://canaima.softwarelibre.gob.ve/
+Vcs-Git: git://gitorious.org/canaima-gnu-linux/gnome-themes-gnamon.git
+Vcs-Browser: http://gitorious.org/canaima-gnu-linux/gnome-themes-gnamon/trees/master
 
 Package: gnome-themes-gnamon
 Architecture: all
