@@ -4,16 +4,16 @@
 # términos de la Licencia Pública General de GNU (versión 3).
 
 case ${1} in
-	configure|'')
+	remove|upgrade|deconfigure)
+		
 		for ALT in $(ls -1 /usr/share/themes/Gnamon/gnome-shell/); do
-
-			update-alternatives --force --install \
-			/usr/share/gnome-shell/theme/${ALT} \
+			
+			update-alternatives --remove \
 			${ALT} \
-			/usr/share/themes/Gnamon/gnome-shell/${ALT} 10
-
+			/usr/share/themes/Gnamon/gnome-shell/${ALT}
+		
 		done
-
+		
 	;;
 esac
 
