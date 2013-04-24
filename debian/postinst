@@ -1,0 +1,22 @@
+#!/bin/sh -e
+#
+# ==============================================================================
+# PAQUETE: canaima-escritorio-gnome
+# ARCHIVO: postinst
+# DESCRIPCIÓN: Configura el sistema despues la instalación del paquete.
+# COPYRIGHT:
+#  (C) 2010 Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
+# LICENCIA: GPL3
+# ==============================================================================
+#
+# Este programa es software libre. Puede redistribuirlo y/o modificarlo bajo los
+# términos de la Licencia Pública General de GNU (versión 3).
+
+case ${1} in
+	configure|'')
+		update-alternatives --force --install /usr/share/themes/Gnamon/ gnamon-theme /usr/share/gnome-shell/theme/ 10
+esac
+
+#DEBHELPER#
+
+exit 0
