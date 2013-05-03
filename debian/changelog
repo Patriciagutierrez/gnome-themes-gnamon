@@ -1,3 +1,9 @@
+gnome-themes-gnamon (1.0+2) unstable; urgency=low
+
+  * [f953dc3] Añadiendo Pre-Dependencia con gnome-themes-standard
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 13:02:15 -0430
+
 gnome-themes-gnamon (1.0+1) stable; urgency=low
 
   [ Luis Alejandro Martínez Faneyth ]
