@@ -1,3 +1,15 @@
+gnome-themes-gnamon (1.0+1) stable; urgency=low
+
+  [ Luis Alejandro Martínez Faneyth ]
+  * [ad8f7c5] Corrigiendo estándares.
+
+  [ Erick Birbe ]
+  * [dc8eb29] Usando alternatives para cambiar el tema por defecto de shell
+  * [62d0f47] Insertarndo los update-alternative correctos
+  * [ab00333] Eliminando dependencia que genera advertencia
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 10:22:44 -0430
+
 gnome-themes-gnamon (1.0) stable; urgency=low
 
   * [ad8f7c5] Corrigiendo estándares.
