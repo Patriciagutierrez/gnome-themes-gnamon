@@ -10,6 +10,6 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/gnome-themes-gnamon/trees/ma
 
 Package: gnome-themes-gnamon
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, gtk3-engines-unico, fonts-jara
+Depends: ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, gtk3-engines-unico, fonts-jara
 Description: Conjunto de temas Gnamon
   Conjunto de temas Gnamon
