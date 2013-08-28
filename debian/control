@@ -13,4 +13,4 @@ Architecture: all
 Pre-Depends: gnome-themes-standard
 Depends: ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf, gtk3-engines-unico, fonts-jara
 Description: Conjunto de temas Gnamon
-  Conjunto de temas Gnamon
+ Contiene los componentes de gnome-shell, GTK2+/GTK3 y metacity para el tema 'Gnamon'.

@@ -15,6 +15,7 @@ install:
 	@cp -r gnome-shell $(DESTDIR)/usr/share/themes/Gnamon/
 	@cp -r gtk-3.0 $(DESTDIR)/usr/share/themes/Gnamon/
 	@cp -r gtk-2.0 $(DESTDIR)/usr/share/themes/Gnamon/
+	@cp -r index.theme $(DESTDIR)/usr/share/themes/Gnamon/
 
 uninstall:
 

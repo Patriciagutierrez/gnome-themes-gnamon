@@ -1,3 +1,10 @@
+gnome-themes-gnamon (1.0+3) stable; urgency=low
+
+  * [ebb70cb] Agregando el index.theme al paquete.
+  * [f547d3c] Corrigiendo errores de lintian.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Mon, 06 May 2013 20:30:21 -0430
+
 gnome-themes-gnamon (1.0+2) unstable; urgency=low
 
   * [f953dc3] Añadiendo Pre-Dependencia con gnome-themes-standard
