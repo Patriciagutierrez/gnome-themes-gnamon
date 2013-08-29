@@ -1,3 +1,9 @@
+gnome-themes-gnamon (1.1) kerepakupai; urgency=low
+
+  * [acba6c8] Agregando flechas de las barras de desplazamiento GTK (tkt #739)
+
+ -- Erick Birbe <erickcion@gmail.com>  Thu, 29 Aug 2013 14:34:20 -0430
+
 gnome-themes-gnamon (1.0+3) stable; urgency=low
 
   * [ebb70cb] Agregando el index.theme al paquete.
