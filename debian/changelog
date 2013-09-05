@@ -1,3 +1,9 @@
+gnome-themes-gnamon (1.2) kerepakupai; urgency=low
+
+  * [659b362] Botones de desplazamiento activados en gtk3 (tkt #739)
+
+ -- Erick Birbe <erickcion@gmail.com>  Thu, 05 Sep 2013 17:02:38 -0430
+
 gnome-themes-gnamon (1.1) kerepakupai; urgency=low
 
   * [acba6c8] Agregando flechas de las barras de desplazamiento GTK (tkt #739)
